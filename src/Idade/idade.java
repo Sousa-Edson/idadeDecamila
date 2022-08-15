@@ -17,8 +17,8 @@ public class idade {
 		System.out.println("Digite idade 3:");
 		pessoa.add(ler.nextInt());
 		Collections.sort(pessoa);// aqui coloca em order crescente
-		System.out.println(pessoa);
-		System.out.println(pessoa.get(1));
+//		System.out.println(pessoa);
+		System.out.println("Camila tem "+pessoa.get(1)+" anos.");
 	}
 
 }
